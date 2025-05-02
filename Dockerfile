@@ -18,3 +18,4 @@ RUN git config --global url.git@github.com:.insteadOf https://github.com/ &&\
     git config --global url.git@gitea.com:.insteadOf https://gitea.com/ &&\
     git config --global url."https://${deploy}@sc.tpnfc.us/".insteadOf "https://sc.tpnfc.us/"
 
+CMD [ "bash" ]
